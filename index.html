@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aroma Café - Cea mai bună cafenea din orașul tău. Cafea proaspăt prăjită, produse de patiserie artizanale și atmosferă prietenoasă.">
+    <title>Aroma Café | Gustul Autentic al Cafelei</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-amber-50 text-gray-800 font-sans">
+    <nav class="bg-amber-900 text-amber-50 p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold">Aroma Café</div>
+            <div class="hidden md:flex space-x-6">
+                <a href="index.html" class="hover:text-amber-200 border-b-2 border-amber-500">Acasă</a>
+                <a href="products.html" class="hover:text-amber-200">Produse</a>
+                <a href="about.html" class="hover:text-amber-200">Despre Noi</a>
+                <a href="contact.html" class="hover:text-amber-200">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button class="text-amber-50 focus:outline-none">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <header style="background-image: url('bg.jpg')" class="bg-cover bg-center h-96 flex items-center">
+        <div class="container mx-auto px-4">
+            <div class="max-w-md bg-amber-900 bg-opacity-80 p-8 rounded-lg shadow-xl text-amber-50">
+                <h1 class="text-4xl font-bold mb-4">Descoperă Adevăratul Gust al Cafelei</h1>
+                <p class="mb-6">Cafea proaspăt prăjită din cele mai bune boabe, într-o atmosferă caldă și primitoare.</p>
+                <a href="products.html" class="bg-amber-500 hover:bg-amber-600 text-white font-bold py-3 px-6 rounded-lg inline-block transition-all">
+                    Descoperă Meniul Nostru
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-16 container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">De Ce Să Ne Alegi Pe Noi?</h2>
+        <div class="grid md:grid-cols-3 gap-8 text-center">
+            <div class="p-6 bg-white rounded-lg shadow-md">
+                <div class="text-4xl text-amber-600 mb-4"><i class="fas fa-coffee"></i></div>
+                <h3 class="text-xl font-bold mb-2">Cafea Premium</h3>
+                <p>Folosim doar boabe de cafea de calitate superioară, prăjite cu grijă pentru un gust perfect.</p>
+            </div>
+            <div class="p-6 bg-white rounded-lg shadow-md">
+                <div class="text-4xl text-amber-600 mb-4"><i class="fas fa-bread-slice"></i></div>
+                <h3 class="text-xl font-bold mb-2">Produse Proaspete</h3>
+                <p>Patiseria noastră este preparată zilnic din ingrediente locale de cea mai bună calitate.</p>
+            </div>
+            <div class="p-6 bg-white rounded-lg shadow-md">
+                <div class="text-4xl text-amber-600 mb-4"><i class="fas fa-heart"></i></div>
+                <h3 class="text-xl font-bold mb-2">Atmosferă Prietenoasă</h3>
+                <p>Creăm un spațiu primitor unde te poți bucura de momentele tale de liniște sau de întâlniri plăcute.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-amber-900 text-amber-50 py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Vrei să fii la curent cu ofertele noastre?</h2>
+            <p class="mb-8 max-w-2xl mx-auto">Abonează-te la newsletter-ul nostru și vei primi cele mai noi promoții și evenimente direct în inbox-ul tău.</p>
+            <form class="max-w-md mx-auto flex flex-col md:flex-row gap-4">
+                <input type="email" placeholder="Adresa ta de email" class="flex-grow px-4 py-3 rounded-lg text-gray-800">
+                <button type="submit" class="bg-amber-500 hover:bg-amber-600 px-6 py-3 rounded-lg font-bold transition-all">
+                    Abonează-te
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <section class="py-16 container mx-auto px-4">
+        <div class="flex justify-between items-center mb-12">
+            <h2 class="text-3xl font-bold">Specialitățile Noastre</h2>
+            <a href="products.html" class="text-amber-600 hover:text-amber-700 font-semibold">Vezi toate <i class="fas fa-arrow-right ml-2"></i></a>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="espresso.jpg" alt="Espresso Clasic" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Espresso Clasic</h3>
+                    <p class="mb-4">Intens și aromat, preparat după rețeta tradițională italiană.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-lg font-bold text-amber-600">20 MDL</span>
+                        <button class="bg-amber-500 hover:bg-amber-600 text-white px-4 py-2 rounded">
+                            Comandă Acum
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="cappuccino.jpg" alt="Cappuccino Cremos" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Cappuccino Cremos</h3>
+                    <p class="mb-4">Espresso perfect completat de spumă de lapte catifelată.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-lg font-bold text-amber-600">30 MDL</span>
+                        <button class="bg-amber-500 hover:bg-amber-600 text-white px-4 py-2 rounded">
+                            Comandă Acum
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="cheesecake.jpg" alt="Cheesecake cu Fructe" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Cheesecake cu Fructe</h3>
+                    <p class="mb-4">Delicios desert făcut în casă, cu brânză fină și fructe proaspete.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-lg font-bold text-amber-600">50 MDL</span>
+                        <button class="bg-amber-500 hover:bg-amber-600 text-white px-4 py-2 rounded">
+                            Comandă Acum
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-amber-900 text-amber-50 py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Aroma Café</h3>
+                    <p>Cea mai bună experiență a cafelei în orașul tău din 2018.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Legături Rapide</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-amber-200">Acasă</a></li>
+                        <li><a href="products.html" class="hover:text-amber-200">Produse</a></li>
+                        <li><a href="about.html" class="hover:text-amber-200">Despre Noi</a></li>
+                        <li><a href="contact.html" class="hover:text-amber-200">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Program</h3>
+                    <ul class="space-y-2">
+                        <li>Luni - Vineri: 7:00 - 20:00</li>
+                        <li>Sâmbătă: 8:00 - 22:00</li>
+                        <li>Duminică: 9:00 - 18:00</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Urmărește-ne</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-2xl hover:text-amber-200"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-2xl hover:text-amber-200"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-2xl hover:text-amber-200"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-amber-800 mt-8 pt-8 text-center">
+                <p>&copy; 2025 Aroma Café. Toate drepturile rezervate.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
